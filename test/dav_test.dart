@@ -3,14 +3,10 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    final awesome = Awesome();
-
-    setUp(() {
-      // Additional setup goes here.
-    });
+    final version = Dav(appVersion: "0.3.1");
 
     test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      expect(version.toString(), contains("0.3.1"));
     });
   });
 }
