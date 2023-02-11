@@ -1,11 +1,37 @@
-# See https://www.dartlang.org/guides/libraries/private-files
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub` with addtional entries added.
 
-# Files and directories created by pub
+# Avoid committing pubspec.lock for library packages; see
+# https://dart.dev/guides/libraries/private-files#pubspeclock.
+#pubspec.lock
+
+# Files and directories created by pub.
 .dart_tool/
 .packages
+
+# Conventional directory for build output.
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
-pubspec.lock
+
+# Editor configs
+.vscode/
+
+# IntelliJ / Webstorm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Apple Mac macOS generated meta file
+.DS_Store
+
+# key files
+keys.*
+Keys.*
+key.*
+Key.*
+
+# Databbase files
+*.db
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
