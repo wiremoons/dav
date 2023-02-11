@@ -28,9 +28,9 @@ Easy to use, with no addtional external dependencies. Only uses the Dart SDK bui
 
 Below are two screen example outputs:
  
-![Dart script version output](images/dart-aot-exe-version.png)
+![Dart script version output](https://raw.githubusercontent.com/wiremoons/dav/main/images/dart-script-version.png)
 
-![Dart AOT exe version output](images/dart-script-version.png)
+![Dart AOT exe version output](https://raw.githubusercontent.com/wiremoons/dav/main/images/dart-aot-exe-version.png)
 
 
 ## Getting started
