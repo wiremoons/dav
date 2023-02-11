@@ -11,21 +11,23 @@ provides includes:
 - the system locale for the machine being run on;
 - the name of the local computer the application is being run on.
 
-Different data is displayed to distiguish a AOT complied application from one runing as a Dart script. 
+Different data is displayed to distiguish a **AOT complied application** from one runing as a **Dart script**. The 
+displayed differences includes:
 
-The displayed differences includes:
+- *Last time the script was modified* **vs** *when the applcation was built (ie AOT compiled)*;
+- *Version of Dart being used to execute the script* **vs** *Version of Dart the application was AOT complied with*;
 
-- *Last time the script was modified* vs *when the applcation was built (ie AOT compiled)*;
-- *Version of Dart being used to execute the script* vs *Version of Dart the application was AOT complied with*;
+Simple usage provides two options for application version output:
 
-Two options available for version output:
-
-1. Use the `display()` call to output the version data to stdout for display on the command line;
+1. Use the `display()` call to output the version data to *stdout* for display on the command line;
 2. Use the `asString()` call to get a string copy of the version data - in case further manipluation is needed prior to output.
 
 Easy to use, with no addtional external dependencies. Only uses the Dart SDK builtin module: `dart:io`.
 
+## Screen Shots
 
+Below are two screen example outputs:
+ 
 ![Dart script version output](images/dart-aot-exe-version.png)
 
 ![Dart AOT exe version output](images/dart-script-version.png)
