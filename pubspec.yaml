@@ -14,3 +14,9 @@ environment:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+screenshots:
+  - description: 'Dart script version output'
+    path: images/dart-aot-exe-version.png
+  - description: 'Dart AOT exe version output'
+    path: images/dart-script-version.png
