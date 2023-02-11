@@ -26,9 +26,9 @@ Two options available for version output:
 Easy to use, with no addtional external dependencies. Only uses the Dart SDK builtin module: `dart:io`.
 
 
-![Dart script version output](image/dart-aot-exe-version.png)
+![Dart script version output](images/dart-aot-exe-version.png)
 
-![Dart AOT exe version output](image/dart-script-version.png)
+![Dart AOT exe version output](images/dart-script-version.png)
 
 
 ## Getting started
