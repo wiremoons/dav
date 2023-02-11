@@ -1,3 +1,6 @@
+[![pub package](https://img.shields.io/pub/v/dav.svg)](https://pub.dev/packages/dav)
+[![package publisher](https://img.shields.io/pub/publisher/dav.svg)](https://pub.dev/packages/dav/publisher)
+
 Dart package for command line applications to create an version display. 
 
 ## Features

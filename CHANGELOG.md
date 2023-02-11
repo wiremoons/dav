@@ -1,3 +1,8 @@
+## 0.1.3
+- Ensure correct screenshot is assign to right description
+- Use full URL to screenshot images in README.md
+- Add badges to README.md
+
 ## 0.1.2
 - Fix tests to include very basic first working test
 - Ensure dart analyze runs without errors
@@ -8,5 +13,4 @@
 - Fixed link to screenshot image in README.md
 
 ## 0.1.0
-
 - Initial version of package created.
