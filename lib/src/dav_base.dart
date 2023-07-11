@@ -97,7 +97,7 @@ System locale is '$_systemLocale'.""";
   String _getAppName() {
     return (_isScript())
         ? Platform.script.pathSegments.last
-        : Platform.resolvedExecutable.split("/").last;
+        : Platform.resolvedExecutable.split(Platform.pathSeparator).last;
   }
 
   // applications full path and name (exe) or full path and filename (script).

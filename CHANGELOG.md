@@ -1,3 +1,6 @@
+## 0.2.0
+- Fix '_getAppName()' method to work cross platform - was broken on Windows
+
 ## 0.1.3
 - Ensure correct screenshot is assign to right description
 - Use full URL to screenshot images in README.md
